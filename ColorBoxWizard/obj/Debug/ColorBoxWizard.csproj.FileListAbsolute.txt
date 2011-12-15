@@ -1,0 +1,7 @@
+C:\git\ColorBoxWizard\ColorBoxWizard\bin\ColorBoxWizard.dll
+C:\git\ColorBoxWizard\ColorBoxWizard\bin\ColorBoxWizard.pdb
+C:\git\ColorBoxWizard\ColorBoxWizard\bin\EntityFramework.dll
+C:\git\ColorBoxWizard\ColorBoxWizard\bin\EntityFramework.xml
+C:\git\ColorBoxWizard\ColorBoxWizard\obj\Debug\ResolveAssemblyReference.cache
+C:\git\ColorBoxWizard\ColorBoxWizard\obj\Debug\ColorBoxWizard.dll
+C:\git\ColorBoxWizard\ColorBoxWizard\obj\Debug\ColorBoxWizard.pdb

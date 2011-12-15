@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="8C2995BF-8DA4-4348-99C3-44BF40426CE2" ModuleId="ColorBoxWizard" />
+  <Module PersistentId="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
+  <Module PersistentId="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.WebPages" />
+</Modules>

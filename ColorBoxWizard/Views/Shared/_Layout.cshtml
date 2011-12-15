@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/css/site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/colorbox.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Content/scripts/jquery-1.7.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/scripts/jquery.colorbox-wizard.js")"></script>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div id="title">
+                <h1>My Company</h1>
+            </div>
+            <div id="logindisplay">
+                <p>Logged in as guest</p>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="/Home/Index" >Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            @RenderBody()
+        </section>
+        <footer>
+                Copyright 2011
+            </footer>
+    </div>
+</body>
+</html>

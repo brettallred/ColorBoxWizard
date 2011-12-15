@@ -1,0 +1,34 @@
+﻿@model ColorBoxWizard.Controllers.User_RegisterCommand
+
+@{
+    ViewBag.Title = "Step1";
+    if (!ViewBag.ShowLayout)
+    {
+        Layout = null;
+    }
+}
+
+<h2>Step 1 - Register</h2>
+
+<form action="/MyWizard/RegisterUser" method="POST" data-updateElement="#bank-list">
+    <fieldset>
+    <label>
+        First Name</label>
+    @Html.TextBoxFor(x => x.FirstName)
+    
+    <label>
+        Last Name</label>
+    @Html.TextBoxFor(x => x.LastName)
+
+    <label>
+        Email</label>
+    @Html.TextBoxFor(x => x.Email)
+
+        <p><input type="submit" value="Submit" /></p>
+    </fieldset>
+</form>
+
+<div id="bank-list">
+    <a href="/MyWizard/Step2">Skip</a>
+
+</div>

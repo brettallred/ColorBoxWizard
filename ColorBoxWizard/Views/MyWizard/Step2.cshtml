@@ -1,0 +1,40 @@
+﻿@model ColorBoxWizard.Controllers.User_UpdateProfileCommand
+@{
+    ViewBag.Title = "Step 2";
+
+    if (!ViewBag.ShowLayout)
+    {
+        Layout = null;
+    }
+}
+
+ <p>Thank You for Registering! Your id is @ViewBag.UserId</p>
+
+    
+<h2>Step 2 - Tell us about yourself</h2>
+
+<form action="/MyWizard/UpdateProfile" method="POST">
+    <fieldset>
+    <label>
+        Favorite Color</label>
+    @Html.TextBoxFor(x => x.FavoriteColor)
+
+    <label>
+        Favorite Sport</label>
+    @Html.TextBoxFor(x => x.FavoriteSport)
+
+    <label>
+        Favorite Food</label>
+    @Html.TextBoxFor(x => x.FavoriteFood)
+
+        <p><input type="submit" value="Submit" /></p>
+    </fieldset>
+</form>
+
+
+
+
+<div>
+    <a href="/MyWizard/Step3">Skip</a>
+    <a href="/MyWizard/ThrowError">Throw Error</a>
+</div>
